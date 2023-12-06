@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .services {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar .services .logo {
+  width: 200px; /* Increase width to make it slightly bigger */
+  height: 80px; /* Increase height to make it slightly bigger */
+  margin-right: 15px; /* Increase margin to make it slightly bigger */
+}
+
+
+.navbar .services li {
+  margin-right: 15px; /* Increase margin to make it slightly bigger */
+}
+
+.navbar .services li:last-child {
+  margin-right: 0;
+}
+
+.navbar .services li a {
+  text-decoration: none;
+  color: rgb(0, 152, 0);
+  font-size: 16px;
+}
+
+.navbar .services li a:hover {
+  transition: color 0.3s ease;
+  color: rgb(0, 255, 0);
+}
+
+.navbar .services li i {
+  color: green; /* Change the color of the icons to green */
+  font-size: 20px; /* Increase font size to make it slightly bigger */
+}

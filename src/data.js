@@ -2,24 +2,26 @@ import tour1 from "./images/tour1.png";
 import tour2 from "./images/tour2.png";
 import tour3 from "./images/tour3.png";
 import tour4 from "./images/tour4.png";
-
-
+import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const socialMediaLinks = {
     facebook: {
         id: 1,
         href: "https://www.facebook.com/travelier",
         text: "Facebook",
+        icon: faFacebook,
     },
     twitter: {
         id: 2,
         href: "https://www.twitter.com/travelier",
         text: "Twitter",
+        icon: faTwitter,
     },
     instagram: {
         id: 3,
         href: "https://www.instagram.com/travelier",
         text: "Instagram",
+        icon: faInstagram,
     },
 };
 
