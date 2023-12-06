@@ -1,3 +1,9 @@
+import tour1 from "./images/tour1.png";
+import tour2 from "./images/tour2.png";
+import tour3 from "./images/tour3.png";
+import tour4 from "./images/tour4.png";
+
+
 
 const socialMediaLinks = {
     facebook: {
