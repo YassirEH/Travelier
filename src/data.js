@@ -57,22 +57,44 @@ const services = [
 const tours = [
     {
         id: 1,
-        title: "City Tour",
-        description: "Explore the city's landmarks and attractions.",
-        duration: "3 hours",
+        image: tour1,
+        date: 'august 26th, 2020',
+        title: 'Tibet Adventure',
+        info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+        location: 'china',
+        duration: 6,
+        cost: 2100,
     },
     {
         id: 2,
-        title: "Beach Getaway",
-        description: "Relax and unwind on the beautiful beaches.",
-        duration: "2 days",
+        image: tour2,
+        date: 'october 1th, 2020',
+        title: 'best of java',
+        info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+        location: 'indonesia',
+        duration: 11,
+        cost: 1400,
     },
     {
         id: 3,
-        title: "Adventure Trek",
-        description: "Embark on an exciting trekking adventure.",
-        duration: "5 days",
+        image: tour3,
+        date: 'september 15th, 2020',
+        title: 'explore hong kong',
+        info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+        location: 'hong kong',
+        duration: 8,
+        cost: 5000,
     },
+    {
+        id: 4,
+        image: tour4,
+        date: 'december 5th, 2019',
+        title: 'kenya highlights',
+        info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+        location: 'kenya',
+        duration: 20,
+        cost: 3300,
+    }
 ];
 
 export { socialMediaLinks, pageLinks, services, tours };
