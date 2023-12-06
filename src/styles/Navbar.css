@@ -1,48 +1,53 @@
-*{
-  padding: 0;
-  margin: 0;
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  margin:auto;
 }
 
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 0;
+  margin-right: 200px;
+}
 
-.navbar nav {
+.menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  margin-right: 200px;
 }
 
-.navbar .services {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-.navbar .services .logo {
-  width: 200px; /* Increase width to make it slightly bigger */
-  height: 80px; /* Increase height to make it slightly bigger */
-  margin-right: 15px; /* Increase margin to make it slightly bigger */
-}
-
-
-.navbar .services li {
-  margin-right: 15px; /* Increase margin to make it slightly bigger */
-}
-
-.navbar .services li:last-child {
-  margin-right: 0;
-}
-
-.navbar .services li a {
+.menu a {
+  margin-right: 10px;
   text-decoration: none;
-  color: rgb(0, 152, 0);
-  font-size: 16px;
-}
-
-.navbar .services li a:hover {
+  color: #333;
+  font-weight: bold;
   transition: color 0.3s ease;
-  color: rgb(0, 255, 0);
 }
 
-.navbar .services li i {
-  color: green; /* Change the color of the icons to green */
-  font-size: 20px; /* Increase font size to make it slightly bigger */
+.menu a:hover {
+  color: green;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.services li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.services li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.services li a:hover {
+  color: green;
 }

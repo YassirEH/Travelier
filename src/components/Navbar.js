@@ -9,7 +9,14 @@ const Navbar = () => {
         <div className="navbar">
             <nav>
                 <ul className="services">
-                    <img className="logo" src={Travelier} alt="logo" />
+                    <a href="#home"><img className="logo" src={Travelier} alt="logo" /></a>
+                    <div className="menu">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#tours">Tours</a>
+                    </div>
+
                     {Object.values(socialMediaLinks).map((link, index) => (
                         <li key={index}>
                             <a href={link.href}>
