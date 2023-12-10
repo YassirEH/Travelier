@@ -3,6 +3,7 @@ import tour2 from "./images/tour2.png";
 import tour3 from "./images/tour3.png";
 import tour4 from "./images/tour4.png";
 import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faPlane, faHotel, faCar } from "@fortawesome/free-solid-svg-icons";
 
 const socialMediaLinks = {
     facebook: {
@@ -45,20 +46,22 @@ const pageLinks = {
 
 const services = [
     {
-        // END: abpxx6d04wxr
         id: 1,
         title: "Flight Booking",
         description: "Book your flights with ease.",
+        icon: faPlane,
     },
     {
         id: 2,
         title: "Hotel Reservations",
         description: "Find the perfect hotel for your stay.",
+        icon: faHotel,
     },
     {
         id: 3,
         title: "Car Rentals",
         description: "Rent a car for your travel needs.",
+        icon: faCar,
     },
 ];
 

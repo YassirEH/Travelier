@@ -9,12 +9,12 @@ const Navbar = () => {
         <div className="navbar">
             <nav>
                 <ul className="services">
-                    <a href="#home"><img className="logo" src={Travelier} alt="logo" /></a>
+                    <a href="#"><img className="logo" src={Travelier} alt="logo" /></a>
                     <div className="menu">
-                        <a href="#home">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#services">Services</a>
-                        <a href="#tours">Tours</a>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Tours</a>
                     </div>
 
                     {Object.values(socialMediaLinks).map((link, index) => (

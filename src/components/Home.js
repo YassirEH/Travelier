@@ -3,7 +3,6 @@ import "../styles/Home.css";
 const Home = () => {
     return (
         <div className="home">
-            <section id="home"></section>
             <div className="home-container">
                 <h1>Continue Exploring</h1>
                 <p>Travelier is your passport to the world's wonders. It helps you plan trips, discover hidden gems, and craft unique itineraries.
@@ -16,5 +15,3 @@ const Home = () => {
     );
 };
 export default Home;
-
-<p>  </p>
