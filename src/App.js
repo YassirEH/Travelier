@@ -4,6 +4,7 @@ import Home from './components/Home';
 import React from 'react';
 import Services from './components/Services';
 import './index.css';
+import Tours from './components/Tours';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Home />
         <Services />
+        <Tours />
       </React.Fragment>
     </div>
   );
