@@ -2,7 +2,6 @@ import React from 'react';
 import { services } from "../data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/Services.css";
-import { faPlane, faHotel, faCar } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
     return (

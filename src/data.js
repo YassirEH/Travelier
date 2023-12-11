@@ -1,7 +1,3 @@
-import tour1 from "./images/tour1.png";
-import tour2 from "./images/tour2.png";
-import tour3 from "./images/tour3.png";
-import tour4 from "./images/tour4.png";
 import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPlane, faHotel, faCar } from "@fortawesome/free-solid-svg-icons";
 

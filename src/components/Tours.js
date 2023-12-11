@@ -15,7 +15,7 @@ function Tours() {
             <h2 className="tours-title">Our Tours</h2>
             {tours.map((tour, index) => (
                 <div className="tour" key={index}>
-                    <img className="tour-image" src={tour.image} alt={tour.name} />
+                    <img className="tour-image" src={`/images/${tour.image}.png`} alt={tour.name} />
                     <div className="tour-info">
                         <h3 className="tour-name">{tour.name}</h3>
                         <h4 className="tour-price">${tour.price}</h4>
